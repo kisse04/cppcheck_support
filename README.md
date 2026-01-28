@@ -16,6 +16,10 @@
   - `script/cppcheck_run.bat`
   - `script/cppcheck_run.py`
   - `script/cppcheck_run_readme.md`
+- `customize_rule/`：自訂規則示例與使用說明
+  - `customize_rule/no_goto.rule`
+  - `customize_rule/bug_goto.c`
+  - `customize_rule/readme.md`
 
 ## 說明
 
@@ -25,3 +29,4 @@
 ## Release note
 
 - 2026-01-23：更新中文翻譯與腳本說明文件，補齊 README 專案說明與目錄整理。
+- 2026-01-28：新增 `customize_rule/` 內容與使用說明。

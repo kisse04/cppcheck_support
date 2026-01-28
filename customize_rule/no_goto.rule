@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<rules>
+  <!-- 用 raw：在原始文字上用 regex 搜尋 -->
+  <rule tokenlist="raw">
+    <!-- \bgoto\b 代表完整單字 goto
+         \s+      代表至少一個空白
+         label    用 C 識別字規則 [A-Za-z_][A-Za-z0-9_]*
+         \s*;\s*  允許分號前後有空白 -->
+    <pattern>\bgoto\b\s+[A-Za-z_][A-Za-z0-9_]*\s*;</pattern>
+
+    <message>
+      <id>style.no_goto</id>
+      <severity>error</severity>
+      <summary>The use of goto is prohibited: Please use structured processes instead.</summary>
+    </message>
+  </rule>
+</rules>
