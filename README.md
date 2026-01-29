@@ -4,13 +4,11 @@
 
 ## 目錄結構
 
-- `manual/`：原始 PDF 手冊（`manual/manual.pdf`）
-- `manual_zhTW.md`：PDF 手冊中文（繁體）翻譯
-- `html/`：Cppcheck 網站首頁的中文（繁體）翻譯與資源
-  - `html/Cppcheck - A tool for static C_C++ code analysis.htm`
+- `manual/`：PDF 手冊
+  - `manual/manual_zhTW.md`
+- `html/`：Cppcheck 網站的中文（繁體）翻譯與資源
   - `html/cppcheck_zhTW_html.md`
 - `cppcheck_github/`：GitHub README 翻譯
-  - `cppcheck_github/github_readme.md`
   - `cppcheck_github/github_readme_zhTW.md`
 - `script/`：Cppcheck 執行腳本與說明
   - `script/cppcheck_run.bat`

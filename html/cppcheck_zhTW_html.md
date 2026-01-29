@@ -1,5 +1,7 @@
 ﻿# Cppcheck - C/C++ 靜態程式碼分析工具
 
+Original page: https://cppcheck.sourceforge.io/
+
 ## 頁面資訊
 - 標題：Cppcheck - A tool for static C/C++ code analysis
 - 說明：Cppcheck 是用於 C/C++ 程式碼的分析工具。它能偵測編譯器通常無法偵測的錯誤類型。目標是零誤報。
