@@ -4,8 +4,9 @@
 
 ## 目錄結構
 
-- `manual/`：PDF 手冊
+- `manual/`：PDF 手冊 / 使用 FAQ
   - `manual/manual_zhTW.md`
+  - `manual/cppcheck_faq_zhTW.md`（路徑／Include／巨集定義／授權／網路映射磁碟使用 FAQ）
 - `html/`：Cppcheck 網站的中文（繁體）翻譯與資源
   - `html/cppcheck_zhTW_html.md`
 - `cppcheck_github/`：GitHub README 翻譯
@@ -28,3 +29,4 @@
 
 - 2026-01-23：更新中文翻譯與腳本說明文件，補齊 README 專案說明與目錄整理。
 - 2026-01-28：新增 `customize_rule/` 內容與使用說明。
+- 2026-02-05：新增 `manual/cppcheck_faq_zhTW.md`（路徑／Include／巨集定義／授權／網路映射磁碟使用 FAQ），並更新 README 目錄結構說明。
